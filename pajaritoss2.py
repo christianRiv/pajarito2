@@ -1,7 +1,7 @@
 from tkinter import ttk
 from tkinter import *
 
-class Desk:
+class chriss:
     def __init__(self, window):
         # Initializations
         
@@ -87,7 +87,7 @@ if __name__ == '__main__':
     window = Tk()
     
     #en la variable app guardamos la clase Desk y le enviamos como parametro la ventana 
-    app = Desk(window)
+    app = chriss(window)
 
     #ejecutamos un mainloop para que se ejecute la ventana
     window.mainloop()
